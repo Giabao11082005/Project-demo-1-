@@ -1,0 +1,133 @@
+.demo-profile {
+  display: flex;
+  flex-wrap: wrap;
+  /* cho phep xuong dong neu can */
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  flex: 1;
+  padding: 20px;
+  background-color: black;
+}
+
+.profile-image {
+  text-align: center;
+}
+.profile-name {
+  font-size: 20px;
+  font-family: Impact;
+  color: white;
+  text-align: center;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.profile-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.profile-team a:hover {
+  color: blue;
+}
+
+.profile-image-text {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: center;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.image-profile {
+  flex: 5;
+  background-color: gray;
+  padding: 20px;
+  /* background-image: url(img/imageProfile.jpg); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  margin: 0 auto;
+}
+
+.image-profile-name-job {
+  text-align: left;
+  color: white;
+  padding-top: 250px;
+}
+
+.image-profile-name {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Impact;
+}
+
+.image-profile-job {
+  font-size: 25px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-family: Impact;
+  text-decoration: underline aqua;
+}
+
+.home,
+.about,
+.contact,
+.resume,
+.portfolio {
+  display: block;
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-link a i {
+  margin-right: 5px;
+}
+
+.profile-link a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.profile-link a::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: aqua;
+  scale: 1 0;
+  z-index: -1;
+  transition: scale 0.45s ease;
+  border-radius: 10px;
+}
+
+.profile-link a:hover {
+  color: red;
+}
+
+.profile-link a:hover::after {
+  scale: 1 1;
+}

@@ -1,0 +1,40 @@
+/* <span class="header-information-name-text-2">
+                <i class="fa-solid fa-mars"></i> Gender: Male</span
+              >
+              <span class="header-information-name-text-2">
+                <i class="fa-solid fa-cake-candles"></i>Birth: 11/08/2005</span
+              >
+              <span class="header-information-name-text-2"
+                ><i class="fa-solid fa-phone"></i>Phone: +84 033661185</span
+              >
+              <span class="header-information-name-text-2">
+                <i class="fa-solid fa-location-dot"></i>Address: Ho Ci Minh
+                City</span
+              >
+              <span class="header-information-name-text-2"
+                ><i class="fa-solid fa-envelope"></i>Email:
+                baohg2455@ut.edu.vn</span */
+.container {
+  display: flex;
+}
+
+.container-left {
+  flex: 5;
+  background-color: aqua;
+  border: 2px solid black;
+}
+
+.left-header-infomation .container-left-header {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.left-header-information-name .container-left {
+  font-size: 30px;
+}
+
+.container-right {
+  flex: 3;
+  background-color: aqua;
+  border: 2px solid black;
+}
